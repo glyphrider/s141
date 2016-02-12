@@ -1,0 +1,12 @@
+{application, s141,
+ [
+  {description, "simple one for one"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { s141_app, []}},
+  {env, []}
+ ]}.
